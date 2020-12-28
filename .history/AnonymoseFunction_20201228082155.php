@@ -26,7 +26,7 @@ sayGoodBye("Dewa", $filterFunction);
 $firstName = "Dewa";
 $lastName = "ari";
 
-$sayHelloDewa = function () use ($firstName, $lastName){
+$sayHelloDewa = function () use ($firstName, $lastName) {
     echo "Hello $firstName $lastName" . PHP_EOL;
 };
 
