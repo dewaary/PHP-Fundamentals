@@ -34,7 +34,17 @@ if ($cemah) {
     return sayHello();
 }
 
-
+class cemah {
+    public function __construct($data) {
+    $this->nama = $data;
+    }
+    public function answer ($string) {
+    return $string.$this->nama.PHP_EOL;
+    }
+    }
+    
+    $jawab = new cemah("gung aji");
+    echo $jawab->answer("im fine bro ");
 
 
 
